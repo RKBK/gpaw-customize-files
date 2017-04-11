@@ -1,3 +1,4 @@
+""" This is the customize script for GPAW on Sherlock"""
 """User provided customizations.
 
 Here one changes the default arguments for compiling _gpaw.so (serial)

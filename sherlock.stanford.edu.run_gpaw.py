@@ -1,3 +1,4 @@
+"""This is the submission script for GPAW on Sherlock at Stanford"""
 #!/usr/bin/env python
 from sys import argv
 import os

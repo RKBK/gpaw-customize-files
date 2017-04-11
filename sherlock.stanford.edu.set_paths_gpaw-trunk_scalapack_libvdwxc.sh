@@ -1,3 +1,4 @@
+""" This is the script for setting up the env for GPAW on Sherlock"""
 # Add modules (dependent on computer)
 #module add py-scipy/0.17.0 py-numpy/1.10.4 openmpi/1.8.7/gcc openblas/0.2.15 hdf5/1.8.16  # gcc
 module add py-scipy/0.17.0 py-numpy/1.10.4 hdf5/1.8.16 intel/2016.u1 openmpi/1.10.2/intel  #Intel
