@@ -1,33 +1,4 @@
 """ This is the customize script for GPAW on Sherlock"""
-"""User provided customizations.
-
-Here one changes the default arguments for compiling _gpaw.so (serial)
-and gpaw-python (parallel).
-
-Here are all the lists that can be modified:
-    
-* libraries
-* library_dirs
-* include_dirs
-* extra_link_args
-* extra_compile_args
-* runtime_library_dirs
-* extra_objects
-* define_macros
-* mpi_libraries
-* mpi_library_dirs
-* mpi_include_dirs
-* mpi_runtime_library_dirs
-* mpi_define_macros
-
-To override use the form:
-    
-    libraries = ['somelib', 'otherlib']
-
-To append use the form
-
-    libraries += ['somelib', 'otherlib']
-"""
 
 #careful here:
 # mpiicc is intelmpi wrapper for icc
