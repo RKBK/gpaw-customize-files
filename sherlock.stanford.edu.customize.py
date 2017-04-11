@@ -1,4 +1,8 @@
-""" This is the customize script for GPAW on Sherlock"""
+""" This is the customize script for GPAW on Sherlock
+Compiling gpaw with this customize.py (which you should keep in the 
+directory where you've cloned the repository to) can be done by 
+python setup.py --remove-default-flags --customize=../sherlock.stanford.edu.customize.py build_ext
+"""
 
 #careful here:
 # mpiicc is intelmpi wrapper for icc
